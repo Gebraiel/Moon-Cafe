@@ -290,7 +290,7 @@ hr {
 
 /* Body font
 ============= */
-body {
+body,span.english-letters {
 	font-family: 'Poppins', sans-serif;
 }
 
