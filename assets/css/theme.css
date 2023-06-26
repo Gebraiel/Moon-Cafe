@@ -73,6 +73,35 @@
  * General
 /* ------------------------------------------------------------- */
 
+.extras{
+	display: flex;
+	direction: rtl;
+}
+.extras ul{
+	margin-left:40px;
+}
+h1[content="extras"]{
+	display: none;
+}
+@media (max-width:991px){
+	h1[content="extras"]{
+		display: block;
+		margin:15px;
+	}
+	.tt-row[content="extras"]{
+		justify-content: center;
+
+	}
+	.extras{
+		justify-content: center;
+	}
+}
+@media(max-width:600px)
+{
+	.extras li{
+		font-size:14px;
+	}
+}
 .foota{
 	display: flex;
 	justify-content: center;
