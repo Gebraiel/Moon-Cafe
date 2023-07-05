@@ -4896,11 +4896,11 @@ video.pi-item-video {
 	}
 
 	.portfolio-interactive.pi-compact .pi-item-title {
-		font-size: calc(14px + 3.2vw);
+		font-size: calc(14px + 2vw);
 		opacity: .7;
 	}
 	.portfolio-interactive.pi-compact .pi-item-hover-title {
-		font-size: calc(14px + 3.2vw);
+		font-size: calc(14px + 2vw);
 	}
 
 	.portfolio-interactive.pi-compact .portfolio-interactive-item::before {
