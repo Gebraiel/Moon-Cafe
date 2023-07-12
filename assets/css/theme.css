@@ -319,8 +319,13 @@ hr {
 
 /* Body font
 ============= */
-body,span.english-letters {
-	font-family: 'Poppins', sans-serif;
+body,.english-letters {
+	font-family: 'Poppins', sans-serif !important ;
+}
+
+h6.english-letters{
+	text-transform:lowercase;
+	text-transform: capitalize;
 }
 
 

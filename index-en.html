@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 
-<!--
-	Template:   Tank - Creative Portfolio Showcase HTML Website Template
-	Author:     Themetorium
-	URL:        https://themetorium.net/
--->
 
 <html lang="en">
 	<head>
 
 		<!-- Title -->
-		<title>اتصل بنــا</title>
+		<title>Moon Cafe</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
@@ -22,7 +17,7 @@
 
 		<!-- Favicon (http://www.favicon-generator.org/) -->
 		<link rel="shortcut icon" href="assets/img/favicon/ICON-01.png" type="image/x-icon">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
 
 		<!-- Google Analytics - Global site tag (gtag.js) -->
 		<!-- Paste your Google Anaytics code here. -->
@@ -31,20 +26,19 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Body font -->
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"> <!-- Secondary/Alter font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@200;500&display=swap" rel="stylesheet">
 
 
 		<!-- Libs and Plugins CSS -->
 		<link rel="stylesheet" href="assets/vendor/normalize/normalize.min.css"> <!-- Normalize CSS (https://necolas.github.io/normalize.css/) -->
-		<link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome-all.min.css"> <!-- Font Icons CSS (https://fontawesome.com) Free version! -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/vendor/swiper/css/swiper-bundle.min.css"> <!-- Swiper CSS (https://swiperjs.com/) -->
 		<link rel="stylesheet" href="assets/vendor/lightgallery/css/lightgallery.min.css"> <!-- lightGallery CSS (http://sachinchoolur.github.io/lightGallery) -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
 		<!-- Template master CSS -->
 		<link rel="stylesheet" href="assets/css/helper.css">
-		<link rel="stylesheet" href="assets/css/shop.css"> <!-- Note: Used on shop-related pages only! -->
 		<link rel="stylesheet" href="assets/css/theme.css">
 
 	</head>
@@ -81,6 +75,14 @@
 
 			<!-- Begin magic cursor 
 			======================== -->
+			<!-- <div id="magic-cursor">
+				<div id="ball"></div>
+			</div> -->
+			<!-- End magic cursor -->
+
+			<!-- Begin noise background -->
+			<div class="bg-noise"></div>
+			<!-- End noise background -->
 
 
 			<!-- *****************************************
@@ -93,7 +95,7 @@
 				========================
 				* Use class "tt-header-fixed" to set header to fixed position.
 				-->
-				<header id="tt-header">
+				<header id="tt-header" >
 					<div class="tt-header-inner"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes can be found in the file "helper.css". -->
 
 						<div class="tt-header-col">
@@ -115,10 +117,10 @@
 
 							<!-- Begin mobile menu toggle button (for "tt-main-menu") -->
 							<div id="tt-m-menu-toggle-btn-wrap">
-								<!-- <div class="tt-m-menu-toggle-btn-text">
-									<span class="tt-m-menu-text-menu arabic">القائمة</span>
-									<span class="tt-m-menu-text-close arabic">اغلاق</span>
-								</div> -->
+								<div class="tt-m-menu-toggle-btn-text">
+									<span class="tt-m-menu-text-menu">Menu</span>
+									<span class="tt-m-menu-text-close">Close</span>
+								</div>
 								<div class="tt-m-menu-toggle-btn-holder">
 									<a href="#" class="tt-m-menu-toggle-btn magnetic-item"><span></span></a>
 								</div>
@@ -136,26 +138,26 @@
 										<div class="tt-main-menu-content">
 
 											<!-- Begin main menu list -->
-											<ul class="tt-main-menu-list arabic">
+											<ul class="tt-main-menu-list english-letters">
 
 												<!-- <li><a href="">Single Link</a></li> -->
 
 												<!-- Begin submenu (submenu master)
 												==================================== -->
 												<li>
-													<a href="index.html">مــون كافيــة</a>
+													<a href="index.html">Home</a>
 												</li>
 												<li>
-													<a href="List.html">القائمة</a>
+													<a href="List.html">Menu</a>
 												</li>
 												<li>
-													<a href="branches.html">فروعنـــا</a>
+													<a href="branches.html">Branches</a>
 												</li>
 												<li>
-													<a href="contactus.html">اتصل بنا</a>
+													<a href="contactus.html">Contact Us</a>
 												</li>
 												<li>
-													<a class="english-letters" href="contactus-en.html">En</a>
+													<a class="english-letters" href="index.html">Ar</a>
 												</li>
 
 											</ul>
@@ -188,6 +190,9 @@
 					<!-- ========================
 					///// Begin page header /////
 					============================= 
+					* ATENTION: This page header is slightly different from the default page header! 
+					It contains some extra elements and classec specifically for a blog post.
+					============================= 
 					* Use class "ph-full" to enable fullscreen size.
 					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).
 					* Use class "ph-center" to enable content center position.
@@ -199,15 +204,15 @@
 					* Use class "ph-content-parallax" to enable content parallax.
 					* Use class "ph-stroke" to enable caption title stroke style.
 					-->
-
-					<div id="page-header" class="ph-cap-lg ph-center ph-image-cropped ph-image-cover-4 ph-content-parallax">
-						<div class="page-header-inner tt-wrap">
+					<div id="page-header" class="ph-full ph-cap-sm ph-center ph-bg-image ph-image-shadow ph-image-cover-6 ph-content-parallax">
+						<div class="page-header-inner tt-wrap max-width-1400">
 
 							<!-- Begin page header image 
 							============================= -->
 							<div class="ph-image">
-								<div class="ph-image-inner" style="opacity: .5;">
-									<img src="assets/img/page-header/ph-1.png" alt="Image">
+								<div class="ph-image-inner">
+									<video width="100%" src="assets/img/blog-ph-1.mp4" type="video/mp4" autoplay loop muted></video>
+									<!-- <img src="assets/img/page-header/blog-ph/blog-ph-1.jpg" alt="Image"> -->
 								</div>
 							</div>
 							<!-- End page header image -->
@@ -216,30 +221,88 @@
 							=============================== 
 							Use class "max-width-*" to set caption max width if needed. For example "max-width-1000". More info about helper classes can be found in the file "helper.css".
 							-->
-							<div class="ph-caption">
-								<h1 class="ph-caption-title ph-appear arabic">اتصل بنـــا</h1>
-								<div class="ph-caption-title-ghost ph-appear arabic">اتصل بنـــا</div>
-								<div class="ph-caption-subtitle ph-appear arabic">920008119</div>
-								<div class="ph-caption-subtitle ph-appear ">Info@mooncafe-sa.com</div>
+							<div class="ph-caption arabic">
+								<div class="ph-categories ph-appear">
+									<a href="blog-archive.html" class="ph-category">مـــــون كافيـــــة</a>
+									<!-- <a href="blog-archive.html" class="ph-category">Uncategorized</a> -->
+								</div> <!-- /.ph-categories -->
 
+								<h2 class="ph-caption-title ph-appear arabic">تاخذك الى رحلــة <br> من مذاق القهوة الرائعة</h2> <!-- You can use <br class="hide-from-lg"> to break a text line if needed -->
 
+								<div class="white ph-appear">
+									<br>
+									<span class="ph-meta-published">استمتـــع بتجربـــة فريـــدة</span>
+								</div> <!-- /.ph-meta -->
 							</div> 
 							<!-- End page header caption -->
 
 						</div> <!-- /.page-header-inner -->
+						
 
 
-
+						<!-- Begin page header share (share buttons are for design purposes only!) 
+						============================= -->
+						
+						<!-- End page header share -->
 						
 					</div>
+					
 					<!-- End page header -->
 
 
 					<!-- *************************************
 					*********** Begin page content *********** 
 					************************************** -->
+					<div id="page-content">
 
-					
+
+						<div class="tt-section padding-top-xlg-180 padding-left-sm-3-p padding-right-sm-3-p">
+							<div class="tt-section-inner tt-wrap">
+								<div class="tt-row">
+									
+
+									<div class="tt-col-lg-8">
+
+										<div class="anim-fadeinup text-gray arabic">
+											<p>انطلق مون كافيه وبدأ نشاطة الفعلي في عام 2010 في تقديم منتجات القهوة والمشروبات والحلويات والسندويتشات, ونستمر في التطوير والتوسع منذ ذلك الحين, فنحن نهدف أن نكون الكافيه رقم واحد في السعودية</p>
+											<p>نجحنا في وقت قياسي بسبب اصرارنا على تقديم افضل جودة من القهوة بأسعار منافسة. وهو ما برهن على نجاح الكافية نجاحا واسعا وشاملا أرجاء مختلفة من المملكة العربية السعودية حيث أصبح لدينا أكثر من 20 فرع</p>
+											<p>نسعي دائما الي تحسين منتجاتنا لإسعاد عملائنا ورغبتنا هي تقديم منتجات عالية الجودة ونتأكد دائما من أن المنتجات من اجود المصادر الخام والحرص بقدر الامكان علي استخلاص منتجاتنا من المصادر الطبيعية وتقديمها بكل حب اعتمدنا على اختيار موقعنا على حسب الكثافة السكانية في الجماعات, المولات , المستشفيات وأماكن العمل</p>
+											<!-- <div class="tt-btn tt-btn-link no-margin">
+												<a href="dummy-page.html" data-hover="Explore More">Explore More</a>
+											</div> -->
+										</div>
+
+									</div> <!-- /.tt-col -->
+
+									<div class="tt-col-lg-4 padding-right-md-5-p">
+
+										<!-- Begin tt-Heading 
+										====================== 
+										* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+										* Use class "tt-heading-stroke" to enable stroke style.
+										* Use class "tt-heading-center" to align tt-Heading to center.
+										* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+										-->
+										<div class="tt-heading tt-heading-xsm margin-bottom-60 anim-fadeinup">
+											<h1 class="tt-heading-title arabic hiden Heady">عن <br> مون كافيه</h1>
+											<!-- <h3 class="tt-heading-subtitle text-gray">Subtitle</h3> -->
+										</div>
+										<!-- End tt-Heading -->
+
+									</div> <!-- /.tt-col -->
+								</div> <!-- /.tt-row -->
+
+							</div> <!-- /.tt-section-inner -->
+						</div>
+
+
+
+
+
+
+					</div>
+					<!-- End page content -->
+
 
 					<!-- ======================
 					///// Begin tt-footer /////
@@ -306,7 +369,6 @@
 		<script src="assets/vendor/jquery.mousewheel.min.js"></script> <!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
 
 		<!-- Theme master JS -->
-		<script src="assets/js/shop.js"></script> <!-- Note: Used on shop-related pages only! -->
 		<script src="assets/js/theme.js"></script>
 
 
