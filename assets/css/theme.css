@@ -112,7 +112,10 @@ h1[content="extras"]{
 	padding: 20px 50px;
 	width: 20%;
 }
-
+.reverse-row{
+	display:flex;
+	flex-direction: row-reverse;
+}
 @media only screen and (max-width: 1320px){
 	.foota-cont{
 		width: 30%;
